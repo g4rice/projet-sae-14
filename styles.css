@@ -1,3 +1,5 @@
+/*Index.html*/
+
 /* Style global */
 * {
     margin: 0;
@@ -80,15 +82,21 @@ section p {
     margin-bottom: 20px;
 }
 
-section img {
-    width: 100%;
+.content {
+    display: grid;
+    place-items: center;
     height: auto;
-    border-radius: 8px;
+  }
+
+#rectangle {
+    background-position: center;
+    color: #fe5816;
+    text-align: center;
 }
 
 /* Footer */
 footer {
-    background-color: #003399;
+    background-color: #144ec2;
     color: white;
     text-align: center;
     padding: 20px;
@@ -114,5 +122,75 @@ footer a:hover {
     font-size: 1rem;
     font-family: "EDF-Light", sans-serif;
     font-style: italic;
+    text-align: center;
+}
+
+/* Rectangle */
+
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corps de la page */
+  bod {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Conteneur principal */
+  .con {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Titre en haut */
+  .tit {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Section des statistiques */
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Chaque statistique */
+  .sta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .numb {
+    font-size: 2em;
+    font-weight: bold;
+    color: #144ec2;
+  }
+  
+  .descri {
+    font-size: 1em;
+    color: #fe5816;
+  }
+  
+  /* Unitep */
+
+  #unitep {
+    background-position: center;
+    color: #fe5816;
     text-align: center;
 }
