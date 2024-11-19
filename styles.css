@@ -1,5 +1,9 @@
 /*Index.html*/
 
+
+/* Chargement */
+
+
 /* Style global */
 * {
     margin: 0;
@@ -14,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color: #144ec2; /* Couleur bleue EDF */
+    background-color: #144ec2; 
     color: white;
     display: flex;
     justify-content: space-between;
@@ -23,7 +27,8 @@ header {
 }
 
 header .logo img {
-    width: 150px;
+    width: 400px;
+    padding-right: 0%;
 }
 
 header nav ul {
@@ -94,6 +99,20 @@ section p {
     text-align: center;
 }
 
+/* Lien pour découvrir central */
+
+.ici {
+    background-position: center;
+    color: #000000;
+    text-align: center;
+}
+
+
+a {
+    color: #FF6347; /
+}
+
+
 /* Footer */
 footer {
     background-color: #144ec2;
@@ -132,16 +151,6 @@ footer a:hover {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Corps de la page */
-  bod {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
   }
   
   /* Conteneur principal */
@@ -194,3 +203,54 @@ footer a:hover {
     color: #fe5816;
     text-align: center;
 }
+
+
+/* CNPE Paluel */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .image-container {
+    display: flex;              /* Utilisation de Flexbox */
+    justify-content: center;    /* Centrage horizontal */
+    align-items: center;        /* Centrage vertical */
+  }
+
+  img {
+    max-width: 40%;             /* Réduit la largeur de l'image à 80% de son conteneur */         
+    object-fit: contain;        /* Garantit que l'image conserve ses proportions */
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .intro {
+    background-color: #ecf0f1;
+    width: 500px;   /* Largeur du bloc */
+    height: 300px;  /* Hauteur du bloc */
+  }
+  
+  .details {
+    background-color: #ffffff;
+    width: 500px;   /* Largeur du bloc */
+    height: 300px;  /* Hauteur du bloc */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+
+  
