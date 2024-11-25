@@ -118,7 +118,7 @@ footer {
     background-color: #144ec2;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer p {
@@ -234,13 +234,15 @@ body {
   
   .intro {
     background-color: #ecf0f1;
-    width: 500px;   /* Largeur du bloc */
-    height: 300px;  /* Hauteur du bloc */
+    margin:auto;
+    width: 1000px;   /* Largeur du bloc */
+    height: 370px;  /* Hauteur du bloc */
   }
   
   .details {
-    background-color: #ffffff;
-    width: 500px;   /* Largeur du bloc */
+    background-color: #ecf0f1;
+    margin:auto;
+    width: 1000px;   /* Largeur du bloc */
     height: 300px;  /* Hauteur du bloc */
   }
   
