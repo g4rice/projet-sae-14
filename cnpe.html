@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Centrale Nucléaire de Paluel</title>
-  <link rel="stylesheet" href="styles.css">
-
-      <!-- En-tête avec navigation -->
-      <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrale Nucléaire de Paluel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- En-tête avec navigation -->
+    <header>
         <div class="logo">
             <img src="/image/edf.svg" alt="Logo EDF">
         </div>
@@ -15,47 +16,56 @@
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="unitep.html">UNITEP</a></li>
-                <li><a href="garice.html">Garice MOPIN
-                </a></li>
+                <li><a href="garice.html">Garice MOPIN</a></li>
             </ul>
         </nav>
     </header>
 
-  <section class="intro">
+    <!-- Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
 
-    <h2>Présentation de la centrale nucléaire de Paluel</h2>
-    <p>La centrale nucléaire de Paluel est une centrale nucléaire française exploitée par EDF et située 
-        sur le territoire de la commune de Paluel en Seine-Maritime. Elle comprend quatre réacteurs nucléaires 
-        opérationnels de 1 330 MW pour un total de 5 320 MWe. </p>
+    <!-- Section des détails techniques -->
+    <section class="details">
+      <h2>Informations Techniques</h2>
+      <ul>
+          <li><strong>Type de réacteurs :</strong> Réacteurs à eau pressurisée (REP)</li>
+          <li><strong>Nombre de réacteurs :</strong> 4</li>
+          <li><strong>Puissance totale :</strong> 5 600 MW</li>
+          <li><strong>Lieu :</strong> Paluel, Normandie</li>
+          <li><strong>Opérateur :</strong> EDF</li>
+      </ul>
+  </section>
 
-    <p>La centrale nucléaire de Paluel a été construite entre 1977 et 19867. Elle est exploitée par EDF. La centrale, 
+    <!-- Image de la centrale -->
+    <div id="lieu">
+     <H1>Emplacement Centrale Nucléaire de Paluel :</H1>
+     </div>
+    <div class="image-container">
+        <img src="/image/carte.png" alt="Centrale Paluel">
+    </div>
+  <!-- Section de présentation -->
+<section class="intro">
+  <h2>Présentation de la centrale nucléaire de Paluel</h2>
+  <p>La centrale nucléaire de Paluel est une centrale nucléaire française exploitée par EDF et située 
+      sur le territoire de la commune de Paluel en Seine-Maritime. Elle comprend quatre réacteurs nucléaires 
+      opérationnels de 1 330 MW pour un total de 5 600 MWe.</p>
+  <p>La centrale nucléaire de Paluel a été construite entre 1977 et 1986. Elle est exploitée par EDF. La centrale, 
       qui utilise l'eau de mer (Manche) pour son système de refroidissement, dispose de quatre réacteurs nucléaires de 
       1 330 MW chacun. Les quatre réacteurs de Paluel ont été construits par Framatome de 1977 à 1986. Ils font partie 
       du palier P4, comme les deux premiers réacteurs de la centrale nucléaire de Flamanville et les deux réacteurs de 
-      la centrale nucléaire de Saint-Alban. Depuis leur mise en service, ils sont exploités par EDF
-      </p>
-  </section>
-  <div class="image-container">
-  <img src="/image/carte.png" alt="Centrale Paluel">
-    </div>
-  <section class="details">
-    <h2>Informations Techniques</h2>
-    <ul>
-      <li><strong>Type de réacteurs :</strong> Réacteurs à eau pressurisée (REP)</li>
-      <li><strong>Nombre de réacteurs :</strong> 4</li>
-      <li><strong>Puissance totale :</strong> 5 600 MW</li>
-      <li><strong>Lieu :</strong> Paluel, Normandie</li>
-      <li><strong>Opérateur :</strong> EDF</li>
-    </ul>
-  </section>
-  <footer>
-    <div class="footer-content">
-        <img src="/image/edf.svg" width="150" height="100" alt="Logo EDF">
-        <p>&copy; 2024 EDF - Centrale Nucléaire de Paluel</p>
-    </div>
+      la centrale nucléaire de Saint-Alban. Depuis leur mise en service, ils sont exploités par EDF.</p>
+</section>
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-content">
+            <img src="/image/edf.svg" width="150" height="100" alt="Logo EDF">
+            <p>Garice MOPIN pour EDF - Centrale Nucléaire de Paluel</p>
+        </div>
         <div class="slogan">
             <p>L'énergie est notre avenir, économisons-la !</p>
         </div>
-</footer>
+    </footer>
 </body>
 </html>
